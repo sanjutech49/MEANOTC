@@ -1,0 +1,59 @@
+﻿[
+    {
+        "examid": 1996,  
+        "examduration" :  30,
+        "students": [
+            {
+                "studentid": "1456",
+                "studentname": "Sanjeev Kumar",
+                "imageid": "1456"
+            },
+            {
+                 "studentid": "1457",
+                 "studentname": "Aishwary Dixit",
+                 "imageid": "1457"
+            },
+            {
+                "studentid": "1458",
+                "studentname": "Brenden",
+                "imageid": "1458"
+            }
+        ],
+        "questions": [
+            {
+                "questionid": 1,
+                "questionname": " Which of the following statements regarding WebSockets is true?",
+                "questionoptions": "",
+                "type": "radio",
+                "1": "It communicates with the server with only the data required by the application.",
+                "2": "It lowers the latency of connections for interactive web applications.",
+                "3": "It scales better and consumes less server resources than HTTP AJAX/long-poll.",
+                "4": "All of the above.",
+                "correctanswer": "4"
+            },
+            {
+                "questionid": 2,
+                "questionname": " Assuming that some text needs to be written on an HTML5 canvas, select a replacement for the commented line below:",
+                "questionoptions": "<canvas id='e' width='200' height='200'></canvas> <script> var canvas = document.getElementById(“e'); context.fillStyle = “blue';   context.font = “bold 16px Arial';   context.fillText(“Zibri', 100, 100); </script>",
+                "type": "radio",
+                "1": "var context = canvas.getContext();",
+                "2": "var context = canvas.getElementById(“context”);",
+                "3": "var context = canvas.getContext(“2d”);",
+                "4": "var context = canvas.getElementById(“2d”);",
+                "correctanswer": "2"
+            },
+            {
+                "questionid": 3,
+                "questionname": " What is the role of the <dfn> element in HTML5?",
+                "questionoptions": "",
+                "type": "radio",
+                "1": "It is used to define important text",
+                "2": "It is used to define computer code text.",
+                "3": "It is used to define sample computer code.",
+                "4": "It is used to define a definition term.",
+                "correctanswer": "4"
+            }
+
+        ]
+
+    }]

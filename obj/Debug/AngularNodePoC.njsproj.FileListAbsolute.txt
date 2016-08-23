@@ -1,0 +1,2 @@
+E:\ezimax\PoC\AngularNodePoC\AngularNodePoC\obj\Debug\AngularNodePoC.njsprojResolveAssemblyReference.cache
+E:\ezimax\PoC\AngularNodePoC\AngularNodePoC\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <style type="text/css">
+        body {
+            padding-top: 100px;
+        }
+
+        .form-container {
+            width: 800px;
+            margin: auto;
+        }
+
+        .credits {
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+            padding-top: 20px;
+        }
+
+         header {
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+            margin-bottom: 50px;
+        }
+
+            header .logo {
+                font-size: 20px;
+                font-weight: 900;
+                color: rgba(0, 0, 0, 0.8);
+                line-height: 100px;
+            }
+
+        footer {
+            margin-top: 50px;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+            text-align: center;
+            line-height: 60px;
+        }
+
+        main {
+            min-height: 500px;
+        }
+
+            main form label {
+                margin-bottom: 20px;
+                width:100%;
+            }
+    </style>
+ 
+    <!-- vendor-->
+
+    <script src="js/angular.min.js"></script>
+
+
+    <script src="js/angular-route.js"></script>
+
+    <!-- Angular-->
+
+
+    <!--<script src="config.js"></script>-->
+
+    <script src="approutes.js"></script>
+
+    <script src="services/apiService.js"></script>
+    <script src="services/examservice.js"></script>
+
+    <script src="controllers/logincontroller.js"></script>
+    <script src="controllers/examcontroller.js"></script>
+ 
+    <script src="app.js"></script>
+
+</head>
+<body ng-app="mypoc" >
+    
+    
+        <!--<ul>
+            <li><a href="/login">Login</a></li>
+        </ul>-->
+
+        <div class="form-container" >
+            <div ng-view class="container-content"></div>
+            
+        </div>
+
+
+
+</body>
+</html>

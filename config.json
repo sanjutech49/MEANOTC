@@ -1,0 +1,5 @@
+﻿ {
+    "connectionString": "mongodb://localhost/admin",
+    "apiUrl":  "http://localhost:8024/api",
+    "secret": "Sanjeev"
+}

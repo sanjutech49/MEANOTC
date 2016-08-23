@@ -1,0 +1,48 @@
+﻿
+    <!--<header>
+        <div class="container">
+            <a href="#" class="logo">LOGO</a>
+        </div>
+    </header>-->
+    <main class="container">
+        <div class="form-container">
+            <div class="">
+               
+                <h2>Question: {{question.questionid}} </h2>
+                <p>{{question.questionname}}</p>
+                <form role="form">
+                    <div class="container">
+                        <label class="row">
+                            <input type="radio" name="option" ng-model="selectedAnswer" ng-change="saveAnswer(selectedAnswer)" ng-value="A1">{{question.A1}}
+                        </label>
+
+                        <label class="row">
+                            <input type="radio" name="option" ng-model="selectedAnswer" ng-change="saveAnswer(selectedAnswer)" ng-value="A2">{{question.A2}}
+                        </label>
+
+                        <label class="row">
+                            <input type="radio" name="option" ng-model="selectedAnswer" ng-change="saveAnswer(selectedAnswer)" ng-value="A3">{{question.A3}}
+                        </label>
+                        <label class="row">
+                            <input type="radio" name="option" ng-model="selectedAnswer" ng-change="saveAnswer(selectedAnswer)" ng-value="A4">{{question.A4}}
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <button type="previous" class="btn btn-primary btn-block" ng-hide="question.questionid==1" ng-click="previous()"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Previous</button>
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="submit" class="btn btn-primary btn-block" ng-show="question.questionid==totalQuestions" ng-click="saveAnswer(selectedAnswer);finish()">Finish</button>
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="next" class="btn btn-primary btn-block" ng-hide="question.questionid==totalQuestions" ng-click="saveAnswer(selectedAnswer);next()">Next <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+</main>
+
+    <!--<footer>
+        &copy; 2016 all rights reserved.
+    </footer>-->

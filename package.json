@@ -1,0 +1,24 @@
+{
+  "name": "AngularNodePoC",
+  "version": "0.0.0",
+  "description": "AngularNodePoC",
+  "main": "server.js",
+  "author": {
+    "name": "abc",
+    "email": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-jwt": "^3.3.0",
+    "express-session": "^1.13.0",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^6.1.2",
+    "lodash": "^4.11.1",
+    "mongoose": "^4.4.7",
+    "q": "^1.4.1",
+    "request": "^2.72.0",
+    "rootpath": "^0.1.2",
+    "socket.io": "^1.4.6"
+  }
+}
